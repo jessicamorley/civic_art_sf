@@ -3,7 +3,7 @@ var User = require('../models/user');
 
 
 module.exports = function(passport) {
-
+//sorry i wont give out my linkedin user info because I don't want a scraper bot to find it on github
     passport.use('linkedin', new LinkedInStrategy({
         clientID        : "APP_ID",
         clientSecret    : "SECRET_APP_ID",
