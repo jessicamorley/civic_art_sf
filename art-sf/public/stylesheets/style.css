@@ -1,8 +1,20 @@
 body {
   padding: 50px;
-  font: 44px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 24px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 a {
   color: #FF00FF;
+}
+
+#chart_div{
+  width: 900px; 
+  height: 500px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
